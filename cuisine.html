@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Only -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#mainMenu">
+    <!-- ############################ NavBar #################################### -->
+    <nav
+      id="main-navbar"
+      class="navbar navbar-expand-md navbar-light bg-light sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href=""
+          ><img src="./img/logo1.png" alt="" width="150"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./index.html#about">About</a></li>
+            <li><a class="nav-link" href="./index.html#work">Work</a></li>
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./cuisine.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Cuisines</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./cuisine.html"
+                    >KodeResto Specialty</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./cuisine.html#filipino"
+                    >Filipino Cuisine</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./cuisine.html#american"
+                    >American Cuisine</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./cuisine.html#chinese"
+                    >Chinese Cuisine</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./cuisine.html#japanese"
+                    >Japanese Cuisine</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a class="nav-link" href="./events.html">Events</a></li>
+            <li>
+              <a class="nav-link" href="./index.html#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ############################# Cuisine carousel ######################### -->
+    <section id="Specialty">
+      <div class="showcase-content">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/filipinocuisine.jpg"
+                class="image-fluid"
+                style="
+                  object-fit: cover;
+                  width: 100%;
+                  height: 100vh;
+                  filter: brightness(0.7);
+                "
+                height="100%"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h1>Filipino Cuisine</h1>
+                <p>
+                  Most Filipino dishes are heavy on meat, like beef (baka),
+                  chicken (manok), and pork (baboy), and occasionally goat
+                  (kambing)
+                </p>
+                <p>
+                  <a href="#filipino" class="btn btn-info" type="button"
+                    >Read More</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/american1.jpeg"
+                style="
+                  object-fit: cover;
+                  width: 100%;
+                  height: 100vh;
+                  filter: brightness(0.7);
+                "
+                height="100%"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>American Cuisine</h1>
+                <p>
+                  American cuisine consists of the cooking style and traditional
+                  dishes prepared in the United States
+                </p>
+                <p>
+                  <a href="#american" class="btn btn-info" type="button"
+                    >Read More</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/chinesecuisine.jpg"
+                style="
+                  object-fit: cover;
+                  width: 100%;
+                  height: 100vh;
+                  filter: brightness(0.7);
+                "
+                height="100%"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Chinese Cuisine</h1>
+                <p>
+                  Chinese cuisine encompasses the numerous cuisines originating
+                  from China, as well as overseas cuisines created by the
+                  Chinese diaspora.
+                </p>
+                <p>
+                  <a href="#chinese" class="btn btn-info" type="button"
+                    >Read More</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/japanesecuisine.jpg"
+                style="
+                  object-fit: cover;
+                  width: 100%;
+                  height: 100vh;
+                  filter: brightness(0.7);
+                "
+                height="100%"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Japanese Cuisine</h1>
+                <p>
+                  Japanese cuisine encompasses the regional and traditional
+                  foods of Japan
+                </p>
+                <p>
+                  <a href="#japanese" class="btn btn-info" type="button"
+                    >Read More</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ############################# Cuisine ######################### -->
+    <main id="main-cuisine">
+      <section id="koderesto">
+        <div class="container">
+          <div class="text-center pt-5">
+            <h1>KodeResto Specialty</h1>
+            <p>
+              KODE, a cuisine agnostic modern Freestyle bar & kitchen, imbibes
+              state-of-the-art equipment and uses some of the most advanced and
+              scientific equipment with the finest local & seasonal ingredients.
+              With a Liquid Chef concept, KODE offers a mixological exploration
+              with its cocktail tasting menu pairing cocktails course-wise,
+              along with a many kind of cuisine from 4 countries.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="filipino">
+        <div class="container text-center pt-5">
+          <h3>Filipino Cuisine</h3>
+          <p>
+            Most Filipino dishes are heavy on meat, like beef (baka), chicken
+            (manok), and pork (baboy), and occasionally goat (kambing). Offal is
+            also commonly eaten by Filipinos, and forms the main ingredient of
+            dishes like bopis, dinuguan, La Paz batchoy and sisig and street
+            food like adidas, Betamax or dugo, and isaw.
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="./img/f1.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/f2.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/f3.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="american">
+        <div class="container">
+          <div class="row text-center pt-5">
+            <h3>American Cuisine</h3>
+            <p>
+              American cuisine consists of the cooking style and traditional
+              dishes prepared in the United States. It has been significantly
+              influenced by Europeans, indigenous Native Americans, Africans,
+              Asians, Pacific Islanders, and many other cultures and traditions.
+              Principal influences on American cuisine are Native American,
+              British, German, Spanish, West African, Greek and Italian
+              cuisines. worldwide. nikujaga.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="./img/american2.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/american3.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/american4.webp"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="chinese">
+        <div class="container">
+          <div class="row text-center pt-5">
+            <h3>Chinese Cuisine</h3>
+            <p>
+              Chinese cuisine encompasses the numerous cuisines originating from
+              China, as well as overseas cuisines created by the Chinese
+              diaspora. Because of the Chinese diaspora and historical power of
+              the country, Chinese cuisine has influenced many other cuisines in
+              Asia and beyond, with modifications made to cater to local
+              palates. Chinese food staples such as rice, soy sauce, noodles,
+              tea, chili oil, and tofu, and utensils such as chopsticks and the
+              wok, can now be found worldwide.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="./img/chinese1.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/chinese2.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/chinese3.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="japanese" class="pb-5">
+        <div class="container">
+          <div class="row text-center pt-5">
+            <h3>Japanese Cuisine</h3>
+            <p>
+              Chinese cuisine encompasses the numerous cuisines originating from
+              China, as well as overseas cuisines created by the Chinese
+              diaspora. Because of the Chinese diaspora and historical power of
+              the country, Chinese cuisine has influenced many other cuisines in
+              Asia and beyond, with modifications made to cater to local
+              palates. Chinese food staples such as rice, soy sauce, noodles,
+              tea, chili oil, and tofu, and utensils such as chopsticks and the
+              wok, can now be found worldwide.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="./img/j1.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/j2.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+            <div class="col-md-4">
+              <img
+                src="./img/j3.jpg"
+                alt=""
+                style="object-fit: cover; width: 100%; height: 300px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ############################ Footer #################################### -->
+    <footer id="footer" class="pt-5 pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <img src="./img/logo2.png" alt="" width="180px" />
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h3>Our Products</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="">KodeResto Specialty</a></li>
+              <li class="mb-2"><a href="">Filipino Cuisine</a></li>
+              <li class="mb-2"><a href="">American Cuisine</a></li>
+              <li class="mb-2"><a href="">Chinese Cuisine</a></li>
+              <li class="mb-2"><a href="">Japanese Cuisine</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="https://www.facebook.com">Facebook</a>
+              </li>
+              <li class="mb-2">
+                <a href="https://www.instagram.com">Instagram</a>
+              </li>
+              <li class="mb-2"><a href="https://www.twitter">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h3>Search Here</h3>
+            <form action="">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Here"
+                />
+                <button class="btn btn-info" type="button">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright &copy; 2022 | SP404 | Kodego Bootcamp</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
