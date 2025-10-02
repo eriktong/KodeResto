@@ -1,8 +1,9 @@
 # KodeResto
 
+**Live Demo:** https://transcendent-rabanadas-a6001e.netlify.app/
+
 ![Pages Deploy](https://github.com/eriktong/KodeResto/actions/workflows/pages.yml/badge.svg) ![Last commit](https://img.shields.io/github/last-commit/eriktong/KodeResto) 
 
-**Live Demo:** [https://eriktong.github.io/KodeResto/](https://eriktong.github.io/KodeResto/)
 
 > Restaurant landing page (menu, specials, reservations).
 
